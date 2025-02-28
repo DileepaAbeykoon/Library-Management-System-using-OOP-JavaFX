@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookManagementController">
+   <children>
+      <Label alignment="CENTER" layoutX="215.0" layoutY="31.0" prefHeight="66.0" prefWidth="336.0" text="Book Management" textFill="#dd1212">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="138.0" mnemonicParsing="false" onAction="#btnAddBookOnAction" prefHeight="45.0" prefWidth="183.0" text="Add Book" />
+      <Button layoutX="284.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnRemoveBookOnAction" prefHeight="45.0" prefWidth="183.0" text="issue Book" />
+      <Button layoutX="285.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnDisplayBooksOnAction" prefHeight="45.0" prefWidth="183.0" text="Display Books" />
+      <Button layoutX="284.0" layoutY="373.0" mnemonicParsing="false" onAction="#btnSearchBookOnAction" prefHeight="45.0" prefWidth="183.0" text="Return Book" />
+      <Button layoutX="283.0" layoutY="454.0" mnemonicParsing="false" onAction="#btnMainMenuOnAction" prefHeight="45.0" prefWidth="183.0" text="Main Menu" />
+   </children>
+</AnchorPane>
