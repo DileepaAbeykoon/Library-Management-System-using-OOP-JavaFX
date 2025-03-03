@@ -13,8 +13,8 @@
          </font>
       </Label>
       <Button layoutX="287.0" layoutY="138.0" mnemonicParsing="false" onAction="#btnAddBookOnAction" prefHeight="45.0" prefWidth="183.0" text="Add Book" />
-      <Button layoutX="284.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnRemoveBookOnAction" prefHeight="45.0" prefWidth="183.0" text="issue Book" />
-      <Button layoutX="285.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnDisplayBooksOnAction" prefHeight="45.0" prefWidth="183.0" text="Display Books" />
+      <Button layoutX="284.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnRemoveBookOnAction" prefHeight="45.0" prefWidth="183.0" text="Remove book" />
+      <Button layoutX="285.0" layoutY="215.0" mnemonicParsing="false" onAction="#btnDisplayBooksOnAction" prefHeight="45.0" prefWidth="183.0" text="Display Books" />
       <Button layoutX="284.0" layoutY="373.0" mnemonicParsing="false" onAction="#btnSearchBookOnAction" prefHeight="45.0" prefWidth="183.0" text="Return Book" />
       <Button layoutX="283.0" layoutY="454.0" mnemonicParsing="false" onAction="#btnMainMenuOnAction" prefHeight="45.0" prefWidth="183.0" text="Main Menu" />
    </children>

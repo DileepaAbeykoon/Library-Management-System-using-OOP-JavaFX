@@ -27,6 +27,21 @@ public class BookService {
         }
     }
 
+    public String removeBookByISBN(String isbn) {
+    for (int i = 0; i < bookCount; i++) {
+        if (books[i] != null && books[i].getIsbn().equals(isbn)) {
+            for (int j = i; j < bookCount - 1; j++) {
+                books[j] = books[j + 1];
+            }
+            books[bookCount - 1] = null; 
+            bookCount--;
+            return "Book removed successfully!";
+        }
+    }
+    return "Book not found!";
+}
+
+
     public AddBookModel[] getBooks() {
         return books;
     }

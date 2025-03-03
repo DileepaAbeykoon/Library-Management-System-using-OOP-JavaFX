@@ -37,14 +37,19 @@ public class BookManagementController {
     }
 
     @FXML
+    void btnRemoveBookOnAction(ActionEvent event) throws IOException {
+        System.out.println("Remove book");
+        this.root.getChildren().clear();
+            Parent node = FXMLLoader.load(this.getClass().getResource("/view/RemoveBook.fxml"));
+            this.root.getChildren().add(node);
+    }
+
+
+    @FXML
     void btnMainMenuOnAction(ActionEvent event) {
         System.out.println("Main Menu");
     }
 
-    @FXML
-    void btnRemoveBookOnAction(ActionEvent event) {
-        System.out.println("Remove Book");
-    }
 
     @FXML
     void btnSearchBookOnAction(ActionEvent event) {
